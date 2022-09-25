@@ -1,5 +1,5 @@
 # setamago 
-[![Discord]([https://media.discordapp.net/attachments/338403017894395905/668536741942263808/Discord-Logo-Color.png](https://www.myamericanmarket.com/26216-large_default/arizona-fruit-punch.jpg))](https://discord.io/infiniteyield)
+[![Discord](https://www.myamericanmarket.com/26216-large_default/arizona-fruit-punch.jpg)](https://discord.io/infiniteyield)
 The best command line script for roblox.
 
 Get it [here](https://github.com/EdgeIY/infiniteyield/wiki)
