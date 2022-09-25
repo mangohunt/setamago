@@ -14,7 +14,7 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
-ver = '1'
+ver = 'beta'
 
 Players = game:GetService("Players")
 
@@ -11983,7 +11983,7 @@ IYMouse.Move:Connect(checkTT)
 
 task.spawn(function()
 	if pcall(function() loadstring(game:HttpGet('https://github.com/mangohunt/setamago/version'))() end) then
-		if ver ~= Version then
+		if ver ~= version then
 			notify('outdated','Get the new version at https://github.com/mangohunt/setamago')
 		end
 		if Announcement and Announcement ~= '' then
