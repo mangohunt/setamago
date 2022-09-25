@@ -1,5 +1,5 @@
 if IY_LOADED and not _G.IY_DEBUG == true then
-	-- error("setamago is already running!",0)
+	-- error("seta is already running!",0)
 	return
 end
 
@@ -9,12 +9,12 @@ COREGUI = game:GetService("CoreGui")
 if not game:IsLoaded() then
 	local notLoaded = Instance.new("Message")
 	notLoaded.Parent = COREGUI
-	notLoaded.Text = 'Infinite Yield is waiting for the game to load'
+	notLoaded.Text = 'seta is waiting for the game to load'
 	game.Loaded:Wait()
 	notLoaded:Destroy()
 end
 
-ver = 'beta'
+ver = '1'
 
 Players = game:GetService("Players")
 
@@ -206,7 +206,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "setamago ver : "..ver
+Title.Text = "seta ver : "..ver
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.ZIndex = 10
 table.insert(shade1,Title)
@@ -11982,9 +11982,9 @@ end
 IYMouse.Move:Connect(checkTT)
 
 task.spawn(function()
-	if pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/version'))() end) then
+	if pcall(function() loadstring(game:HttpGet('https://github.com/mangohunt/setamago/version'))() end) then
 		if ver ~= Version then
-			notify('Outdated','Get the new version at infyiff.github.io')
+			notify('outdated','Get the new version at https://github.com/mangohunt/setamago')
 		end
 		if Announcement and Announcement ~= '' then
 			local AnnGUI = Instance.new("Frame")
