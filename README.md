@@ -1,10 +1,10 @@
 # setamago 
 the best command line script for roblox.
 
-Get it [here](https://github.com/EdgeIY/infiniteyield/wiki)
+get it [here](https://github.com/mangohunt/setamago/wiki)
 
- - has things
- - alot
+ - arizona mango
+ - arizona fruit punch
  - arizona drinks
 
 ## developers
