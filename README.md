@@ -1,6 +1,5 @@
 # setamago 
-[![Discord](https://www.myamericanmarket.com/26216-large_default/arizona-fruit-punch.jpg)](https://discord.io/infiniteyield)
-The best command line script for roblox.
+the best command line script for roblox.
 
 Get it [here](https://github.com/EdgeIY/infiniteyield/wiki)
 
