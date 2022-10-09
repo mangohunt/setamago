@@ -11496,6 +11496,9 @@ addcmd('headsize',{},function(args, speaker)
 			if Head:IsA("BasePart") then
 				if not args[2] or sizeArg == 1 then
 					Head.Size = Vector3.new(2,1,1)
+					Head.Transparency = 0.7
+					Head.BrickColor = BrickColor.new("Really black")
+					
 				else
 					Head.Size = Size
 				end
